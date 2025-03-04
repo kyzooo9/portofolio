@@ -14,7 +14,7 @@ function AboutMe() {
         </div>
         <div className="about-description">   
           <p>
-            Halo nama saya Ahmad Alfarizzi saya adalah seorang siswa di SMK ANTARTIKA 2 SIDOARJO jurusan Teknik Komputer Jaringan. Saya memiliki ketertarikan dalam dunia teknologi dan ingin menjadi seorang web developer,Saya memiliki pengalaman dalam membuat aplikasi web menggunakan React dan Node.js. Saya juga memiliki pengalaman dalam membuat aplikasi web CRUD database menggunakan php. Saya memiliki kemampuan dalam membuat aplikasi berbasis web yang interaktif dan responsif.<br/>download cv saya disini<br/> <a href="/cv.pdf" download="cv.pdf" className="cv-download-link">
+            Halo nama saya Ahmad Alfarizzi saya adalah seorang siswa di SMK ANTARTIKA 2 SIDOARJO jurusan Teknik Komputer Jaringan. Saya memiliki ketertarikan dalam dunia teknologi dan ingin menjadi seorang web developer,Saya memiliki pengalaman dalam membuat web static menggunakan Reactjs. Saya juga memiliki pengalaman dalam membuat aplikasi web CRUD database menggunakan php.Dan juga memiliki pengalaman dalam bidang cyber security.Saya memiliki kemampuan dalam membuat web yang interaktif dan responsif.<br/>download cv saya disini<br/> <a href="/cv.pdf" download="cv.pdf" className="cv-download-link">
   download cv</a>
           </p>
         </div>

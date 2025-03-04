@@ -14,15 +14,15 @@ function Projects() {
     },
     {
       id: 2,
-      title: 'E-Library',
-      description: 'Description of Project 2.',
-      image: '/project2.png', // Add image path
+      title: 'Photography',
+      description: 'Human interest fotography.',
+      image: '/project4.JPG', // Add image path
     },
     {
       id: 3,
-      title: 'Project 3',
-      description: 'Description of Project 3.',
-      image: '/user.jpg', // Add image path
+      title: 'E-Commerce',
+      description: 'web e-commerce untuk jual beli barang barang.',
+      image: '/project3.png', // Add image path
     },
     {
       id: 4,
