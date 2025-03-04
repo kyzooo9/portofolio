@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.243127e6.css",
+    "main.js": "/static/js/main.3d75a793.js",
+    "static/js/453.aac68abc.chunk.js": "/static/js/453.aac68abc.chunk.js",
+    "static/media/project2.png": "/static/media/project2.307d0fc39b15dfd93129.png",
+    "static/media/cv.jpg": "/static/media/cv.6eb073755d2fd5021357.jpg",
+    "static/media/frieren-wallpaper-4k-made-by-me-3-v0-for3cbmfqjoc1.webp": "/static/media/frieren-wallpaper-4k-made-by-me-3-v0-for3cbmfqjoc1.059d3967bce7413b8586.webp",
+    "static/media/project1.png": "/static/media/project1.5cee5a991e5bd44378a0.png",
+    "static/media/profil.jpg": "/static/media/profil.0fc32dee6a77d5cbda11.jpg",
+    "static/media/ji.jpg": "/static/media/ji.9340e2ab46eecde606b4.jpg",
+    "index.html": "/index.html",
+    "main.243127e6.css.map": "/static/css/main.243127e6.css.map",
+    "main.3d75a793.js.map": "/static/js/main.3d75a793.js.map",
+    "453.aac68abc.chunk.js.map": "/static/js/453.aac68abc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.243127e6.css",
+    "static/js/main.3d75a793.js"
+  ]
+}
