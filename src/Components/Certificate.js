@@ -7,9 +7,10 @@ function Certificate() {
     {
       id: 1,
       description: '2ND PLACE IN THE CYBER SECURITY COMPETITION 2024 ',
-      description1: 'TOEIC AT SCORE 595 ',
+      description1: '3RD PLACE IN THE CLOUD COMPUTING COMPETITION 2025 ',
+      description3: 'TOEIC AT SCORE 595 ',
       description2: 'JLPT N5',
-      description3: 'LIMA BENUA INTERSHIP CERTIFICATE',
+      description4: 'LIMA BENUA INTERSHIP CERTIFICATE',
       
     },
   ];
@@ -31,6 +32,7 @@ function Certificate() {
             <p>{Certificate.description1}</p>
             <p>{Certificate.description2}</p>
             <p>{Certificate.description3}</p>
+            <p>{Certificate.description4}</p>
           </div>
         ))}
       </div>
