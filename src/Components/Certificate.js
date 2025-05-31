@@ -9,7 +9,6 @@ function Certificate() {
       description: '2ND PLACE IN THE CYBER SECURITY COMPETITION 2024 ',
       description1: '3RD PLACE IN THE CLOUD COMPUTING COMPETITION 2025 ',
       description3: 'TOEIC AT SCORE 595 ',
-      description2: 'JLPT N5',
       description4: 'LIMA BENUA INTERSHIP CERTIFICATE',
       
     },
@@ -30,7 +29,6 @@ function Certificate() {
             <h3>{Certificate.title}</h3>
             <p>{Certificate.description}</p>
             <p>{Certificate.description1}</p>
-            <p>{Certificate.description2}</p>
             <p>{Certificate.description3}</p>
             <p>{Certificate.description4}</p>
           </div>
