@@ -15,6 +15,7 @@ function App() {
   const toggleNav = () => {
     setIsNavOpen(!isNavOpen); // Toggle navbar visibility
   };
+  
 
   // Smooth scroll function
   const scrollToSection = (id) => {
