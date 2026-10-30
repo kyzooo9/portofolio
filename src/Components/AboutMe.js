@@ -1,28 +1,26 @@
 import React from 'react';
-import './AboutMe.css'; // Add this for styling
-import profilePhoto from './image/ji.jpg'; // Replace with your PNG image path
+import './AboutMe.css';
+import profilePhoto from './image/ji.jpg';
 
 function AboutMe() {
   return (
-    <section id="about">
-    
-      <div className="about-content">
-        <div className="image-container">
-          <img src={profilePhoto} alt="Profile" />
-        </div>
-        <div className="about-description">
-          <p>
-            Turning <span className="color">ideas</span> into real-life products is my calling. I am a passionate developer with
-            experience in building modern web applications. My goal is to create impactful and
-            user-friendly solutions that solve real-world problems.
-            <span className="cv">
-            <br/>download cv<br/> <a href="/cv.pdf" download="cv.pdf" className="cv-download-link">
-  download cv</a></span>
-          </p>
-        </div>
+    <div className="about-content">
+      <div className="about-portrait">
+        <div className="portrait-ornament">✧</div>
+        <img src={profilePhoto} alt="Portrait" />
+        <span className="portrait-caption">THE PERSON BEHIND THE WORK</span>
       </div>
-    </section>
+      <div className="about-description">
+        <p className="component-kicker">A LITTLE ABOUT THE AUTHOR</p>
+        <h3>Curiosity is the beginning<br />of every great journey.</h3>
+        <p>
+          I am an Internet Engineering Technology student with a strong interest in Cloud Computing and Cybersecurity. 
+          My curiosity about cloud infrastructure, server virtualization, and vulnerability discovery drives me to explore these fields further. 
+          I continuously develop my technical skills through hands-on projects, laboratory practices, CTF challenges, competitions, and independent learning.
+        </p>
+        <a href="/cv.pdf" download="cv.pdf" className="cv-download-link">Download my CV <span>↗</span></a>
+      </div>
+    </div>
   );
 }
-
 export default AboutMe;

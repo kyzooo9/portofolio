@@ -1,24 +1,14 @@
 import React from 'react';
-import { FaWhatsapp, FaLinkedin, FaGithub } from 'react-icons/fa';
-import './SocialMedia.css'; // Add this for styling
+import { FaEnvelope, FaLinkedin, FaGithub } from 'react-icons/fa';
+import './SocialMedia.css';
 
 function SocialMedia() {
   return (
-    <section id="social-media">
-      <h2>Social Media</h2>
-      <div className="social-icons">
-        <a href="https://wa.me/087864838293" target="_blank" rel="noopener noreferrer">
-          <FaWhatsapp className="icon" />
-        </a>
-        <a href="https://www.linkedin.com/in/jidan-alfarizzi-58a767320/" target="_blank" rel="noopener noreferrer">
-          <FaLinkedin className="icon" />
-        </a>
-        <a href="https://github.com/Kyzoo9" target="_blank" rel="noopener noreferrer">
-          <FaGithub className="icon" />
-        </a>
-      </div>
-    </section>
+    <div className="social-links">
+      <a href="ahmadalfarizzi4@gmail.com" target="_blank" rel="noopener noreferrer"><FaEnvelope /><span>Gmail</span><b>↗</b></a>
+      <a href="https://www.linkedin.com/in/ahmad-alfarizzi-58a767320" target="_blank" rel="noopener noreferrer"><FaLinkedin /><span>LinkedIn</span><b>↗</b></a>
+      <a href="https://github.com/Kyzooo9" target="_blank" rel="noopener noreferrer"><FaGithub /><span>GitHub</span><b>↗</b></a>
+    </div>
   );
 }
-
 export default SocialMedia;

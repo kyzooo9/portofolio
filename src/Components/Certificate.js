@@ -2,40 +2,26 @@ import React from 'react';
 import './Certificate.css';
 
 function Certificate() {
-
-  const Certificate = [
-    {
-      id: 1,
-      description: '2ND PLACE IN THE CYBER SECURITY COMPETITION 2024 ',
-      description1: '3RD PLACE IN THE CLOUD COMPUTING COMPETITION 2025 ',
-      description3: 'TOEIC AT SCORE 595 ',
-      description4: 'LIMA BENUA INTERSHIP CERTIFICATE',
-      
-    },
+  const records = [
+    { id: 1, title: 'Cyber Security Competition', detail: '2nd Place, Finalist', year: '2024', mark: 'Ⅱ' },
+    { id: 2, title: 'Cloud Computing Competition', detail: '3rd Place', year: '2025', mark: 'Ⅲ' },
+    { id: 3, title: 'TOEIC', detail: 'Score 595', year: '2025', mark: '✧' },
+    { id: 4, title: 'MTCNA', detail: 'MikroTik Certified Network Associate ', year: '2025', mark: '✦' },
+    { id: 4, title: 'BNSP NETWORKING', detail: 'Data Center Technical Support Junior', year: '2025', mark: 'Ⅱ' },
   ];
 
-  
-
   return (
-    <section id="Certificate">
-      <h2>Certificate</h2>
-      <div className="Certificate-grid">
-        {Certificate.map((Certificate) => (
-          <div
-            key={Certificate.id}
-            className="Certificate-card"
-           
-          >
-            <h3>{Certificate.title}</h3>
-            <p>{Certificate.description}</p>
-            <p>{Certificate.description1}</p>
-            <p>{Certificate.description3}</p>
-            <p>{Certificate.description4}</p>
-          </div>
-        ))}
-      </div>
-    </section>
+    <div className="certificate-grid">
+      {records.map((record) => (
+        <article className="certificate-card" key={record.id}>
+          <span className="certificate-mark">{record.mark}</span>
+          <span className="certificate-year">RECORD · {record.year}</span>
+          <h3>{record.title}</h3>
+          <p>{record.detail}</p>
+          <span className="certificate-rule" />
+        </article>
+      ))}
+    </div>
   );
 }
-
 export default Certificate;

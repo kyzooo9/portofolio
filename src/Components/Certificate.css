@@ -1,61 +1,9 @@
-.Certificate-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 1.5rem;
-  padding: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-.Certificate-card {
-  background-color: #222;
-  padding: 1.5rem;
-  border-radius: 8px;
-  cursor: pointer;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-
-.Certificate-card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 4px 15px rgba(0, 188, 212, 0.3);
-}
-
-
-.Certificate-card h3 {
-  font-size: 1.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.Certificate-card p {
-  font-size: 1rem;
-  color: #aaa;
-  word-wrap: break-word;
-}
-
-/* Responsive Design */
-@media (max-width: 1024px) {
-  .Certificate-grid {
-    grid-template-columns: repeat(3, 1fr); /* 3 columns for tablets */
-  }
-}
-
-@media (max-width: 768px) {
-  .Certificate-grid {
-    grid-template-columns: repeat(2, 1fr); /* 2 columns for mobile */
-  }
-}
-
-@media (max-width: 480px) {
-  .Certificate-grid {
-    grid-template-columns: 1fr; /* 1 column for small screens */
-  }
-}
-
-.Certificate-card:hover {
-  transform: scale(1.1); /* Zoom in on hover */
-}
+.certificate-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; max-width: 1050px; margin: auto; }
+.certificate-card { min-height: 220px; padding: 22px 18px; position: relative; display: flex; flex-direction: column; align-items: flex-start; background: rgba(248, 242, 226, .62); border: 1px solid rgba(147, 126, 79, .35); }
+.certificate-mark { align-self: flex-end; color: #b39a65; font: 29px 'IM Fell English', Georgia, serif; }
+.certificate-year { margin-top: 10px; color: #9b8658; font: 8px 'Cinzel', serif; letter-spacing: .13em; }
+.certificate-card h3 { margin: 13px 0 7px; color: #354536; font: 400 19px 'IM Fell English', Georgia, serif; }
+.certificate-card p { margin: 0; color: #827e6d; font: 11px 'DM Sans', sans-serif; }
+.certificate-rule { width: 35px; height: 1px; margin-top: auto; background: #b69a61; }
+@media (max-width: 900px) { .certificate-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 480px) { .certificate-grid { grid-template-columns: 1fr; } }
