@@ -1,6 +1,6 @@
 .about-content { display: grid; grid-template-columns: minmax(220px, .75fr) 1.25fr; align-items: center; gap: 65px; max-width: 1050px; margin: auto; padding: 10px 0; }
 .about-portrait { position: relative; width: 100%; max-width: 310px; height: 350px; padding: 12px; border: 1px solid #829bb6; background: #dce5ef; }
-.about-portrait::before { content: ''; position: absolute; inset: 6px; border: 1px solid rgba(69, 108, 151, .4); pointer-events: none; z-index: 1; }
+.about-portrait::before { content: ''; position: absolute; inset: 6px; border: 1px solid rgba(69,108,151, .4); pointer-events: none; z-index: 1; }
 .about-portrait img { width: 100%; height: 100%; display: block; object-fit: cover; filter: sepia(.13) saturate(.78); }
 .portrait-ornament { position: absolute; z-index: 2; top: -17px; right: -14px; color: #456c97; font: 30px var(--serif); }
 .portrait-caption { position: absolute; bottom: 20px; left: 20px; z-index: 2; color: #f1f5fa; font: 8px var(--display); letter-spacing: .12em; text-shadow: 0 1px 5px #263e59; }

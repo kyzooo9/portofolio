@@ -12,7 +12,7 @@ function AboutMe() {
       </div>
       <div className="about-description">
         <p className="component-kicker">A LITTLE ABOUT THE AUTHOR</p>
-        <h3>Curiosity is the beginning<br />of every great journey.</h3>
+        <h3>Understanding systems<br />from infrastructure to security.</h3>
         <p>
           I am an Internet Engineering Technology student with a strong interest in Cloud Computing and Cybersecurity. 
           My curiosity about cloud infrastructure, server virtualization, and vulnerability discovery drives me to explore these fields further. 
