@@ -35,3 +35,28 @@ dist/
 # Environment
 .env
 .env.local
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Local AI tools
+.agents/
+.aider-desk/
+.taste-skill/
+ AGENTS.md
+ skills-lock.json

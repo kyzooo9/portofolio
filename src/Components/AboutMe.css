@@ -1,15 +1,15 @@
 .about-content { display: grid; grid-template-columns: minmax(220px, .75fr) 1.25fr; align-items: center; gap: 65px; max-width: 1050px; margin: auto; padding: 10px 0; }
-.about-portrait { position: relative; width: 100%; max-width: 310px; height: 350px; padding: 12px; border: 1px solid #b8a579; background: #e4dac2; }
-.about-portrait::before { content: ''; position: absolute; inset: 6px; border: 1px solid rgba(150, 125, 72, .4); pointer-events: none; z-index: 1; }
+.about-portrait { position: relative; width: 100%; max-width: 310px; height: 350px; padding: 12px; border: 1px solid #829bb6; background: #dce5ef; }
+.about-portrait::before { content: ''; position: absolute; inset: 6px; border: 1px solid rgba(69, 108, 151, .4); pointer-events: none; z-index: 1; }
 .about-portrait img { width: 100%; height: 100%; display: block; object-fit: cover; filter: sepia(.13) saturate(.78); }
-.portrait-ornament { position: absolute; z-index: 2; top: -17px; right: -14px; color: #9c824e; font: 30px Georgia; }
-.portrait-caption { position: absolute; bottom: 20px; left: 20px; z-index: 2; color: #f4ead1; font: 8px 'Cinzel', serif; letter-spacing: .12em; text-shadow: 0 1px 5px #263b31; }
+.portrait-ornament { position: absolute; z-index: 2; top: -17px; right: -14px; color: #456c97; font: 30px var(--serif); }
+.portrait-caption { position: absolute; bottom: 20px; left: 20px; z-index: 2; color: #f1f5fa; font: 8px var(--display); letter-spacing: .12em; text-shadow: 0 1px 5px #263e59; }
 .about-description { text-align: left; }
-.component-kicker { color: #9a8050 !important; font: 9px 'Cinzel', serif; letter-spacing: .17em; }
-.about-description h3 { margin: 13px 0 20px; color: #354536; font: 400 clamp(1.8rem, 3vw, 2.7rem)/1.2 'IM Fell English', Georgia, serif; }
-.about-description > p:not(.component-kicker) { max-width: 600px; color: #777664; font: 13px/2 'DM Sans', sans-serif; }
-.color { color: #987b46; font-weight: 700; }
-.cv-download-link { display: inline-flex; align-items: center; gap: 22px; margin-top: 17px; padding: 12px 16px; color: #f4ecd9; background: #344b3b; font: 9px 'Cinzel', serif; letter-spacing: .08em; transition: background .2s, transform .2s; }
-.cv-download-link:hover { background: #53694e; transform: translateY(-2px); }
-.cv-download-link span { color: #d8c18a; }
+.component-kicker { color: #456c97 !important; font: 9px var(--display); letter-spacing: .17em; }
+.about-description h3 { margin: 13px 0 20px; color: #263e59; font: 400 clamp(1.8rem, 3vw, 2.7rem)/1.2 var(--serif); }
+.about-description > p:not(.component-kicker) { max-width: 600px; color: #51657c; font: 15px/1.8 var(--sans); }
+.color { color: #557ba3; font-weight: 700; }
+.cv-download-link { display: inline-flex; align-items: center; gap: 22px; margin-top: 17px; padding: 12px 16px; color: #f1f5fa; background: #263e59; font: 9px var(--display); letter-spacing: .08em; transition: background .2s, transform .2s; }
+.cv-download-link:hover { background: #334f6e; transform: translateY(-2px); }
+.cv-download-link span { color: var(--blue-soft); }
 @media (max-width: 700px) { .about-content { grid-template-columns: 1fr; gap: 35px; } .about-portrait { max-width: 280px; height: 320px; margin: auto; } }

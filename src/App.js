@@ -13,7 +13,7 @@ import Projects from './Components/Projects';
 import Certificate from './Components/Certificate';
 import SocialMedia from './Components/SocialMedia';
 import ProjectDetails from './Components/ProjectDetails';
-import logo from './Components/image/logo.jpg';
+import logo from './Components/image/logo.png';
 import profilePhoto from './Components/image/ji.jpg';
 import './App.css';
 
@@ -56,7 +56,7 @@ function HomePage() {
     <main className="home-screen">
       <section className="home-hero">
         <div className="home-copy">
-          <p className="chapter-label"><span /> A RECORD OF CURIOSITY AND CREATION</p>
+          <p className="chapter-label">A RECORD OF CURIOSITY AND CREATION</p>
           <p className="hero-overline">WELCOME TO MY JOURNAL</p>
           <h1>HELLO, Traveler!<br /></h1>
           <p className="hero-summary">
@@ -119,12 +119,14 @@ function ScrollToTop() {
 }
 
 function MainLayout() {
+  const location = useLocation();
+
   return (
     <div className="fantasy-site">
       <div className="page-grain" aria-hidden="true" />
       <SiteHeader />
       <ScrollToTop />
-      <Routes>
+      <Routes location={location} key={location.pathname}>
         <Route path="/" element={<HomePage />} />
         <Route path="/about" element={
           <ContentPage number="01" eyebrow="THE TRAVELLER" title="About the Wanderer" description="A little about the person behind the work.">

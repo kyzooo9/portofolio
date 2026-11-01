@@ -1,15 +1,15 @@
 .projects-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; max-width: 1050px; margin: auto; }
-.project-card { display: block; width: 100%; padding: 12px; text-align: left; color: #29352b; background: rgba(248, 242, 226, .68); border: 1px solid rgba(147, 126, 79, .34); cursor: pointer; transition: transform .25s, box-shadow .25s, background .25s; }
-.project-card:hover { transform: translateY(-5px); background: #f7f0df; box-shadow: 0 14px 30px rgba(67, 65, 45, .12); }
-.project-image { height: 210px; overflow: hidden; position: relative; background: #d4c9ac; }
-.project-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(22, 37, 28, .45)); pointer-events: none; }
+.project-card { display: block; width: 100%; padding: 12px; text-align: left; color: #223248; background: rgba(241, 245, 250, .68); border: 1px solid rgba(75,99,127, .34); cursor: pointer; transition: transform .25s, box-shadow .25s, background .25s; }
+.project-card:hover { transform: translateY(-5px); background: #f1f5fa; box-shadow: 0 14px 30px rgba(34, 50, 72, .12); }
+.project-image { height: 210px; overflow: hidden; position: relative; background: #bdccdc; }
+.project-image::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 55%, rgba(34, 50, 72, .45)); pointer-events: none; }
 .project-image img { width: 100%; height: 100%; object-fit: cover; display: block; transition: transform .5s; }
 .project-card:hover .project-image img { transform: scale(1.045); }
-.project-number, .project-open { position: absolute; z-index: 2; bottom: 12px; color: #fff6df; font: 8px 'Cinzel', serif; letter-spacing: .13em; }
+.project-number, .project-open { position: absolute; z-index: 2; bottom: 12px; color: #f1f5fa; font: 8px var(--display); letter-spacing: .13em; }
 .project-number { left: 13px; }
 .project-open { right: 13px; font-size: 16px; }
 .project-card-copy { padding: 17px 7px 9px; }
-.project-category { color: #9a8050; font: 8px 'Cinzel', serif; letter-spacing: .14em; }
-.project-card h3 { margin: 8px 0; color: #344335; font: 400 24px 'IM Fell English', Georgia, serif; }
-.project-card p { margin: 0; color: #777664; font: 12px/1.8 'DM Sans', sans-serif; }
+.project-category { color: #456c97; font: 8px var(--display); letter-spacing: .14em; }
+.project-card h3 { margin: 8px 0; color: #263e59; font: 400 24px var(--serif); }
+.project-card p { margin: 0; color: #51657c; font: 14px/1.65 var(--sans); }
 @media (max-width: 650px) { .projects-grid { grid-template-columns: 1fr; gap: 17px; } .project-image { height: 190px; } }

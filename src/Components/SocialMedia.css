@@ -1,6 +1,6 @@
 .social-links { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 25px; }
-.social-links a { min-width: 175px; display: flex; align-items: center; gap: 12px; padding: 15px 17px; color: #455440; background: rgba(248, 242, 226, .7); border: 1px solid rgba(147, 126, 79, .35); font: 10px 'Cinzel', serif; letter-spacing: .06em; transition: .2s; }
-.social-links a svg { color: #9a8050; font-size: 17px; }
-.social-links a b { margin-left: auto; color: #a78c58; font-size: 14px; font-weight: 400; }
-.social-links a:hover { background: #f8f1df; border-color: #ad9259; transform: translateY(-3px); }
+.social-links a { min-width: 175px; min-height: 48px; display: flex; align-items: center; gap: 12px; padding: 15px 17px; color: #3e5c7d; background: rgba(241, 245, 250, .7); border: 1px solid rgba(75,99,127, .35); font: 12px var(--display); letter-spacing: .06em; transition: .2s; }
+.social-links a svg { color: #456c97; font-size: 17px; }
+.social-links a b { margin-left: auto; color: #456c97; font-size: 14px; font-weight: 400; }
+.social-links a:hover { background: #f1f5fa; border-color: #456c97; transform: translateY(-3px); }
 @media (max-width: 520px) { .social-links { flex-direction: column; } .social-links a { width: 100%; } }

@@ -1,12 +1,12 @@
-.project-details-page { width: min(1000px, calc(100% - 40px)); min-height: 65vh; margin: auto; padding: 75px 0 100px; color: #29352b; }
-.detail-overline { color: #9b8658; font: 9px 'Cinzel', serif; letter-spacing: .17em; }
-.project-details-page h1 { margin: 13px 0 20px; color: #354536; font: 400 clamp(2.5rem, 6vw, 4rem) 'IM Fell English', Georgia, serif; }
-.detail-divider { display: flex; align-items: center; gap: 14px; color: #ad9259; margin-bottom: 35px; }
-.detail-divider::before, .detail-divider::after { content: ''; height: 1px; background: rgba(77,75,54,.2); flex: 1; }
+.project-details-page { width: min(1000px, calc(100% - 40px)); min-height: 65vh; margin: auto; padding: 75px 0 100px; color: #223248; }
+.detail-overline { color: #557ba3; font: 9px var(--display); letter-spacing: .17em; }
+.project-details-page h1 { margin: 13px 0 20px; color: #263e59; font: 400 clamp(2.5rem, 6vw, 4rem) var(--serif); }
+.detail-divider { display: flex; align-items: center; gap: 14px; color: #456c97; margin-bottom: 35px; }
+.detail-divider::before, .detail-divider::after { content: ''; height: 1px; background: rgba(34,50,72,.2); flex: 1; }
 .detail-entry { display: grid; grid-template-columns: 1.1fr .9fr; gap: 30px; align-items: center; margin: 30px 0 45px; }
-.detail-entry img { display: block; width: 100%; max-height: 440px; object-fit: contain; padding: 9px; background: #f7f1e3; border: 1px solid rgba(147,126,79,.35); }
-.detail-entry p { color: #777664; font: 13px/2 'DM Sans', sans-serif; }
+.detail-entry img { display: block; width: 100%; max-height: 440px; object-fit: contain; padding: 9px; background: #f1f5fa; border: 1px solid rgba(75,99,127,.35); }
+.detail-entry p { color: #51657c; font: 15px/1.75 var(--sans); }
 .detail-entry-reverse { grid-template-columns: .9fr 1.1fr; }
-.return-button { padding: 13px 18px; color: #f4ecd9; background: #344b3b; border: 1px solid #4e604d; font: 9px 'Cinzel', serif; cursor: pointer; }
-.return-button:hover { background: #53694e; }
+.return-button { padding: 13px 18px; color: #f1f5fa; background: #263e59; border: 1px solid #536b85; font: 9px var(--display); cursor: pointer; }
+.return-button:hover { background: #334f6e; }
 @media (max-width: 700px) { .detail-entry, .detail-entry-reverse { grid-template-columns: 1fr; gap: 16px; } .project-details-page { padding-top: 50px; } }

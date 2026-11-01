@@ -1,9 +1,9 @@
 .certificate-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 16px; max-width: 1050px; margin: auto; }
-.certificate-card { min-height: 220px; padding: 22px 18px; position: relative; display: flex; flex-direction: column; align-items: flex-start; background: rgba(248, 242, 226, .62); border: 1px solid rgba(147, 126, 79, .35); }
-.certificate-mark { align-self: flex-end; color: #b39a65; font: 29px 'IM Fell English', Georgia, serif; }
-.certificate-year { margin-top: 10px; color: #9b8658; font: 8px 'Cinzel', serif; letter-spacing: .13em; }
-.certificate-card h3 { margin: 13px 0 7px; color: #354536; font: 400 19px 'IM Fell English', Georgia, serif; }
-.certificate-card p { margin: 0; color: #827e6d; font: 11px 'DM Sans', sans-serif; }
-.certificate-rule { width: 35px; height: 1px; margin-top: auto; background: #b69a61; }
+.certificate-card { min-height: 220px; padding: 22px 18px; position: relative; display: flex; flex-direction: column; align-items: flex-start; background: rgba(241, 245, 250, .62); border: 1px solid rgba(75,99,127, .35); }
+.certificate-mark { align-self: flex-end; color: #456c97; font: 29px var(--serif); }
+.certificate-year { margin-top: 10px; color: #557ba3; font: 8px var(--display); letter-spacing: .13em; }
+.certificate-card h3 { margin: 13px 0 7px; color: #263e59; font: 400 19px var(--serif); }
+.certificate-card p { margin: 0; color: #51657c; font: 13px/1.6 var(--sans); }
+.certificate-rule { width: 35px; height: 1px; margin-top: auto; background: #456c97; }
 @media (max-width: 900px) { .certificate-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 480px) { .certificate-grid { grid-template-columns: 1fr; } }
