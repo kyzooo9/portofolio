@@ -8,9 +8,6 @@
 # testing
 /coverage
 
-# production
-
-
 # misc
 .DS_Store
 .env.local
@@ -34,12 +31,7 @@ dist/
 
 # Environment
 .env
-.env.local
 
-# Environment variables
-.env
-.env.*
-!.env.example
 
 # Logs
 npm-debug.log*
@@ -53,10 +45,3 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
-
-# Local AI tools
-.agents/
-.aider-desk/
-.taste-skill/
- AGENTS.md
- skills-lock.json
